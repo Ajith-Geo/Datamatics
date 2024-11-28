@@ -1,7 +1,7 @@
 def geminis(email: str):
 
     import google.generativeai as genai
-    genai.configure(api_key='AIzaSyAbjMsZDt2PyIlNONxjp6DVW-TVK91doJE')
+    genai.configure(api_key='')
     model = genai.GenerativeModel('gemini-1.5-flash')
 
     fields= {  'Customer Name': '<Name>',  'Order ID': '<Order ID or N/A>',  'Feedback Category': '<Category>',  'Sentiment Score': '<Score>'}
